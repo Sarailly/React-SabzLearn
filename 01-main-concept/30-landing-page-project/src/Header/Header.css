@@ -1,0 +1,21 @@
+*{
+   box-sizing: border-box; 
+}
+
+body{
+    background-color: #eee;
+    margin:0;
+}
+section{
+    height: 100vh;
+    background-color: aqua;
+}
+section span{
+    margin: 0;
+    text-align: center;
+    line-height: 1;
+    display: block;
+    font-weight: 700;
+    font-size: 300%;
+    padding-top: calc(50vh - 20pt);
+}
