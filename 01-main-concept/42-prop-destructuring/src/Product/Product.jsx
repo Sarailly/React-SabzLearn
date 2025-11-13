@@ -4,6 +4,7 @@ import "./Product.css";
 export default function Product({title, image ,price, count}) {
 
     // console.log(props);
+    // let {title, image ,price, count} =props
     
     return (
 
