@@ -1,10 +1,7 @@
 import React from "react";
 import "./Product.css";
 
-export default function Product({title , image ,price, count}) {
-
-    // console.log(props);
-    // let {title, image ,price, count} =props
+export default function Product({title ,image='11.png' ,price}) {
     
     return (
 
@@ -23,5 +20,9 @@ export default function Product({title , image ,price, count}) {
             </div>
         </div>
     )
-    
+
 }
+
+//     Product.defaultProps = {
+//     image:'11.png'
+// } 
